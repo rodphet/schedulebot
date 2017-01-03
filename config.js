@@ -7,7 +7,7 @@ module.exports = {
 	// The bot's command prefix. The bot will recognize as command any message that begins with it.
 	// i.e: "-schedulebot foo" will trigger the command "foo",
 	//      whereas "ScheduleBot foo" will do nothing at all.
-	prefix:  "<@FireBot1>",
+	prefix:  "<@265648947677233153>",
 
 	// This is a readable version of the prefix. Generally, this is the same as prefix, but if
 	// you set prefix to be in the form of "<@YOUR_BOT_USER_ID>", you'd need to set readable_prefix
