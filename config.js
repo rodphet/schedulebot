@@ -21,8 +21,8 @@ module.exports = {
 
 	// Admin app settings
 	admin_app: {
-		desc: "FireBot1 admin commands",
-		prefix: "FireBot1-admin"
+		desc: "firebot1 admin commands",
+		prefix: "firebot1-admin"
 	},
 
 	// The master channel
@@ -75,4 +75,4 @@ module.exports = {
 };
 
 // "Add to server" link:
-// https://discordapp.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot&permissions=0x00002000
+// https://discordapp.com/oauth2/authorize?client_id=265648947677233153&scope=bot&permissions=0x00002000
