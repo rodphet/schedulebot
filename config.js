@@ -2,32 +2,32 @@ module.exports = {
 
 	// Your bot name. Typically, this is your bot's username without the discriminator.
 	// i.e: if your bot's username is MemeBot#0420, then this option would be MemeBot.
-	name: "ScheduleBot",
+	name: "FireBot1",
 
 	// The bot's command prefix. The bot will recognize as command any message that begins with it.
 	// i.e: "-schedulebot foo" will trigger the command "foo",
 	//      whereas "ScheduleBot foo" will do nothing at all.
-	prefix:  "<@YOUR_BOT_USER_ID>",
+	prefix:  "<@FireBot1>",
 
 	// This is a readable version of the prefix. Generally, this is the same as prefix, but if
 	// you set prefix to be in the form of "<@YOUR_BOT_USER_ID>", you'd need to set readable_prefix
-	// to be "@ScheduleBot" (or however your bot user is named).
+	// to be "@FireBot1" (or however your bot user is named).
 	//
 	// This is because when you use the characters `` in Discord (to highlight a command, in
 	// ScheduleBot's case), the string "<@YOUR_BOT_USER_ID>" doesn't get parsed as a mention.
 	// So in order not to mislead the user, we have a separate option for a readable version of
 	// our prefix.
-	readable_prefix: "@YOUR_BOT_USER_NAME",
+	readable_prefix: "@FireBot1",
 
 	// Admin app settings
 	admin_app: {
-		desc: "ScheduleBot admin commands",
-		prefix: "schedulebot-admin"
+		desc: "FireBot1 admin commands",
+		prefix: "FireBot1-admin"
 	},
 
 	// The master channel
 	// The bot will announce the events to this channel. It won't listen to other channels.
-	master_channel: "YOUR_MASTER_CHANNEL",
+	master_channel: "240149525891645442",
 
 	// Events are considered "happening" for a margin of time, where users can see that the event
 	// is happening right now. During that time, the event is not considered expired yet.+
@@ -39,7 +39,7 @@ module.exports = {
 	update_interval: 60000, // In milliseconds
 
 	// List of accepted timezones: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-	default_timezone: "Europe/Madrid",
+	default_timezone: "America/Lima",
 
 	// If this option is enabled, the bot will delete the message that triggered it, and its own
 	// response, after the specified amount of time has passed.
@@ -59,10 +59,10 @@ module.exports = {
 
 	steam: {
 		// The name that the Steam bot will take
-		name: "ScheduleBot",
+		name: "FireBot1",
 
 		// The bot's profile URL. It's needed to redirect users to it.
-		profile_url: "http://steamcommunity.com/profiles/YOUR_BOT_ID/"
+		profile_url: "http://steamcommunity.com/id/firebot1/"
 	},
 
 	dota: {
@@ -70,7 +70,7 @@ module.exports = {
 		// --server flag to the add-inhouse command.
 		// Go to that command's file (Or type -schedulebot add-ihouse --help)
 		// to see possible values.
-		defaultServer: "Luxembourg"
+		defaultServer: "USEast"
 	}
 };
 
